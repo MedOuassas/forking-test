@@ -1,0 +1,88 @@
+body {
+    background-color: #8099d8;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-stretch: extra-expanded;
+    text-shadow: 0 0 1px rgb(251, 248, 248), 0 0 1px rgb(251, 248, 248), 0 0 1px rgb(251, 248, 248), 0 0 1px rgb(168, 54, 54);
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 7px 15px;
+    font-size: 23px;
+    font color:rgb(168, 54, 54);
+    background-color: rgb(240, 128, 228);
+    border-radius: 15px 15px 15px 15px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: baseline;
+}
+
+article {
+    flex: 1;
+    width: 100%;
+}
+
+#berg {
+    background-image: url('berg.jpg');
+    background-size: cover;
+}
+
+#berg:hover {
+    opacity: 70%;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    opacity: 70%;
+    height: 15rem;
+    width: 20rem;
+}
+
+article:hover {
+    opacity: 80%;
+}
+
+p {
+    margin: 25px;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}

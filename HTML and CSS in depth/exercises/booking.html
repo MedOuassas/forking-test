@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                   <a href="index.html"> Home</a> 
+                </li>
+                <li>
+                    <a href="location.html"> Location</a> 
+                </li>
+                <li>
+                    <a href="blog.html"> Blog</a> 
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1>
+                Book a table
+            </h1>
+            <form method="POST">
+               <fieldset id="size">
+                    <label><input type="radio" value="2" name="size"> 2 person table</label>
+                    <label><input type="radio" value="4" name="size" checked> 4 person table</label>
+                    <label><input type="radio" value="6" name="size"> 6 person table</label>
+               </fieldset>
+               <fieldset id="location">
+                <label><input type="radio" value="indoors" name="location" checked> indoors</label>
+                <label><input type="radio" value="outdoors" name="location"> outdoors</label>
+            </fieldset>
+            <button type="submit">Book a table</button>
+            </form>
+            <h1>
+                Book a FANCY table
+            </h1>
+            <form method="POST">
+               <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date">
+               </div>
+               <div>
+                <label for="booking_ppl">Number of People</label>
+                <input type="range" id="booking_ppl" name="booking_ppl" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+                <output>4</output>
+            </div>
+            <div>
+                <label for="booking_loc">Location</label>
+                <input id="booking_loc" name="booking_loc" list="locations">
+                <datalist id="locations">
+                    <option value="Downtown"></option>
+                    <option value="Kits"></option>
+                </datalist>
+            </div>
+
+            </form>
+        </main>
+        <footer>
+            <p> Copyright Lemon</p>
+        </footer>
+    </body>
+</html>
