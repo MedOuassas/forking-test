@@ -8,3 +8,5 @@
 codeless
 
 ### Course 4: [HTML and CSS in depth](https://github.com/kokostino/Meta-Front-End-Developer-Coursera/tree/main/HTML%20and%20CSS%20in%20depth/Assignment)
+
+### Course 5: [React Basics](https://github.com/kokostino/Meta-Front-End-Developer-Coursera/tree/main/React%20Basics)
